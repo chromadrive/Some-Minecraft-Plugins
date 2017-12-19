@@ -1,0 +1,17 @@
+name: Spawn
+main: com.chromadrive.spawn
+version: 0.1
+description: Simple spawn set/warp plugin
+author: chromadrive
+
+commands:
+   setspawn:
+      description: Set a spawn
+      usage: /<command>
+   spawn:
+      description: Teleport to spawn
+      usage: /<command>
+
+permissions:
+    spawn.setspawn:
+        default: op
