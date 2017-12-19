@@ -1,0 +1,19 @@
+name: Spawn
+main: com.chromadrive.home
+version: 0.1
+description: Simple home set/warp plugin
+author: chromadrive
+
+commands:
+   sethome:
+      description: Set a home
+      usage: /<command>
+   home:
+      description: Warp to home
+      usage: /<command>
+
+permissions:
+    home.sethome:
+        default: true
+    home.home:
+        default: true
